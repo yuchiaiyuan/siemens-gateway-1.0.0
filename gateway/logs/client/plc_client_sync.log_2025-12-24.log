@@ -1,0 +1,936 @@
+2025-12-24 10:35:10,959 - plc_client_sync.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 10:35:10,965 - plc_client_sync.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 10:35:10,966 - plc_client_sync.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 10:35:11,428 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:35:11,434 - plc_client_sync.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 10:35:11,435 - plc_client_sync.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 10:35:11,438 - plc_client_sync.log - INFO - PLC 心跳任务已启动 - client.py:244
+2025-12-24 10:35:11,440 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:35:11,442 - plc_client_sync.log - INFO - 启动 PLC心跳 任务 - client.py:224
+2025-12-24 10:35:11,443 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:35:13,925 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:35:16,927 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:35:16,928 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:35:19,427 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:35:19,480 - plc_client_sync.log - ERROR - 等待 PLC 连接超时（5 秒） - client.py:268
+2025-12-24 10:35:19,482 - plc_client_sync.log - ERROR - 取反DB10108.DBX2500.0失败：PLC 未连接 - client.py:342
+2025-12-24 10:35:19,485 - plc_client_sync.log - ERROR - 心跳读写任务发生异常: exceptions must derive from BaseException - client.py:233
+2025-12-24 10:35:22,431 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:35:22,434 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:35:24,926 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:35:27,928 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:35:27,930 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:35:30,439 - plc_client_sync.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 10:35:30,446 - plc_client_sync.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 10:35:30,447 - plc_client_sync.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 10:35:30,930 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:35:30,939 - plc_client_sync.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 10:35:30,939 - plc_client_sync.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 10:35:30,945 - plc_client_sync.log - INFO - 启动 PLC心跳 任务 - client.py:224
+2025-12-24 10:35:30,945 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:35:30,946 - plc_client_sync.log - INFO - PLC 心跳任务已启动 - client.py:244
+2025-12-24 10:35:30,949 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:35:33,425 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:35:36,428 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:35:36,431 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:37:17,755 - plc_client_sync.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 10:37:17,763 - plc_client_sync.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 10:37:17,764 - plc_client_sync.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 10:37:17,928 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:37:17,934 - plc_client_sync.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 10:37:17,937 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:37:17,937 - plc_client_sync.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 10:37:17,939 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:37:17,941 - plc_client_sync.log - INFO - 启动 PLC心跳 任务 - client.py:224
+2025-12-24 10:37:17,942 - plc_client_sync.log - INFO - PLC 心跳任务已启动 - client.py:244
+2025-12-24 10:37:20,425 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:37:23,429 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:37:23,431 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:37:25,926 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:37:25,976 - plc_client_sync.log - ERROR - 等待 PLC 连接超时（5 秒） - client.py:268
+2025-12-24 10:37:25,978 - plc_client_sync.log - ERROR - 取反DB10108.DBX2500.0失败：PLC 未连接 - client.py:342
+2025-12-24 10:37:25,981 - plc_client_sync.log - ERROR - 心跳读写任务发生异常: exceptions must derive from BaseException - client.py:233
+2025-12-24 10:37:28,931 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:37:28,934 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:37:31,427 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:37:34,431 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:37:34,435 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:37:36,928 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:37:39,935 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:37:39,938 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:37:47,654 - plc_client_sync.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 10:37:47,661 - plc_client_sync.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 10:37:47,661 - plc_client_sync.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 10:37:47,926 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:37:47,930 - plc_client_sync.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 10:37:47,932 - plc_client_sync.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 10:37:47,935 - plc_client_sync.log - INFO - 启动 PLC心跳 任务 - client.py:224
+2025-12-24 10:37:47,935 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:37:47,936 - plc_client_sync.log - INFO - PLC 心跳任务已启动 - client.py:244
+2025-12-24 10:37:47,938 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:37:50,425 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:37:53,434 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:37:53,439 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:37:55,930 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:37:55,987 - plc_client_sync.log - ERROR - 等待 PLC 连接超时（5 秒） - client.py:268
+2025-12-24 10:37:55,991 - plc_client_sync.log - ERROR - 取反DB10108.DBX2500.0失败：PLC 未连接 - client.py:342
+2025-12-24 10:37:55,994 - plc_client_sync.log - ERROR - 心跳读写任务发生异常: exceptions must derive from BaseException - client.py:233
+2025-12-24 10:37:58,934 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:37:58,936 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:38:31,113 - plc_client_sync.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 10:38:31,121 - plc_client_sync.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 10:38:31,122 - plc_client_sync.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 10:38:31,429 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:38:31,435 - plc_client_sync.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 10:38:31,437 - plc_client_sync.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 10:38:31,442 - plc_client_sync.log - INFO - 启动 PLC心跳 任务 - client.py:224
+2025-12-24 10:38:31,442 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:38:31,443 - plc_client_sync.log - INFO - PLC 心跳任务已启动 - client.py:244
+2025-12-24 10:38:31,446 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:38:33,925 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:38:36,930 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:38:36,932 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:38:39,427 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:38:39,493 - plc_client_sync.log - ERROR - 等待 PLC 连接超时（5 秒） - client.py:268
+2025-12-24 10:38:39,495 - plc_client_sync.log - ERROR - 取反DB10108.DBX2500.0失败：PLC 未连接 - client.py:342
+2025-12-24 10:38:39,498 - plc_client_sync.log - ERROR - 心跳读写任务发生异常: exceptions must derive from BaseException - client.py:233
+2025-12-24 10:38:42,430 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:38:42,431 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:38:44,928 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:38:47,931 - plc_client_sync.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 10:38:47,934 - plc_client_sync.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 10:38:50,430 - plc_client_sync.log - ERROR - 连接 PLC 时发生异常: b' TCP : Unreachable peer' - client.py:122
+2025-12-24 10:40:37,227 - plc_client_sync.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 10:40:37,235 - plc_client_sync.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 10:40:37,235 - plc_client_sync.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 10:40:37,303 - plc_client_sync.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 10:40:37,306 - plc_client_sync.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 10:40:37,307 - plc_client_sync.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 10:40:37,309 - plc_client_sync.log - INFO - 启动 PLC心跳 任务 - client.py:224
+2025-12-24 10:40:37,309 - plc_client_sync.log - INFO - PLC 心跳任务已启动 - client.py:244
+2025-12-24 10:40:37,342 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:40:40,356 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:40:40,358 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:40:43,394 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:40:43,422 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:40:46,406 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:40:46,471 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:48:27,951 - plc_client_sync.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 10:48:27,957 - plc_client_sync.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 10:48:27,958 - plc_client_sync.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 10:48:27,995 - plc_client_sync.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 10:48:28,001 - plc_client_sync.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 10:48:28,002 - plc_client_sync.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 10:48:28,004 - plc_client_sync.log - INFO - 启动 PLC心跳 任务 - client.py:224
+2025-12-24 10:48:28,004 - plc_client_sync.log - INFO - PLC 心跳任务已启动 - client.py:244
+2025-12-24 10:48:28,011 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:48:31,023 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:48:31,044 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:48:34,039 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:48:34,078 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:48:37,058 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:48:37,113 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:48:40,067 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:48:40,144 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:48:43,082 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:48:43,178 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:48:46,090 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:48:46,204 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:48:49,108 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:48:49,243 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:48:52,123 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:48:52,285 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:48:55,130 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:48:55,314 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:48:58,141 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:48:58,345 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:01,150 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:01,380 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:04,168 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:04,417 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:07,189 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:07,445 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:10,207 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:10,483 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:13,224 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:13,524 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:16,254 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:16,563 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:19,269 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:19,607 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:22,291 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:22,635 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:25,297 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:25,676 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:28,309 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:28,712 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:31,324 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:31,739 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:34,338 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:34,774 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:37,354 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:37,824 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:40,368 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:40,880 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:43,385 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:43,912 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:46,411 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:46,969 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:49,428 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:50,032 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:52,451 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:53,083 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:55,476 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:56,371 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:49:58,495 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:49:59,418 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:01,513 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:02,464 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:04,532 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:05,506 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:07,547 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:08,536 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:10,565 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:11,586 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:13,581 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:14,623 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:16,605 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:17,681 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:19,619 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:20,713 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:22,646 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:23,758 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:25,675 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:26,804 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:28,695 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:29,851 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:31,717 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:32,900 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:34,737 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:35,945 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:37,753 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:39,003 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:40,783 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:42,034 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:43,801 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:45,082 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:46,818 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:48,112 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:49,837 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:51,144 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:52,850 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:54,198 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:55,867 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:50:57,262 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:50:58,897 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:00,309 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:01,911 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:03,346 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:04,929 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:06,401 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:07,953 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:09,503 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:10,967 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:12,540 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:13,983 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:15,579 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:16,999 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:18,617 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:20,010 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:21,663 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:23,036 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:24,701 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:26,060 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:27,741 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:29,082 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:30,776 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:32,092 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:33,826 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:35,108 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:36,872 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:38,124 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:39,907 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:41,148 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:42,936 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:44,166 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:45,979 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:47,268 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:49,020 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:50,278 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:52,069 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:53,289 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:55,094 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:56,302 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:51:58,141 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:51:59,309 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:01,174 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:02,335 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:04,221 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:05,350 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:07,251 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:08,364 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:10,291 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:11,385 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:13,323 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:14,409 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:16,354 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:17,419 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:19,380 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:20,447 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:22,425 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:23,465 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:25,479 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:26,495 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:28,525 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:29,502 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:31,572 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:32,532 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:34,660 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:35,549 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:37,786 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:38,566 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:40,834 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:41,581 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:43,880 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:44,598 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:46,919 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:47,619 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:49,982 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:50,643 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:53,039 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:53,656 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:56,103 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:56,676 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:52:59,139 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:52:59,688 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:02,169 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:02,702 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:05,201 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:05,713 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:08,239 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:08,742 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:11,283 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:11,758 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:14,319 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:14,776 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:17,348 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:17,785 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:20,389 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:20,805 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:23,426 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:23,822 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:26,473 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:26,841 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:29,509 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:29,869 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:32,552 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:32,878 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:35,591 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:35,891 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:38,635 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:38,900 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:41,682 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:41,916 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:44,714 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:44,938 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:47,768 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:47,950 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:50,810 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:50,975 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:53,853 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:54,005 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:56,903 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:53:57,024 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:53:59,935 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:00,040 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:02,974 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:03,077 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:06,014 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:06,085 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:09,045 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:09,105 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:12,096 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:12,122 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:15,125 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:15,129 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:18,157 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:18,177 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:21,168 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:21,209 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:24,187 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:24,263 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:27,203 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:27,299 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:30,221 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:30,325 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:33,239 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:33,386 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:36,251 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:36,435 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:39,267 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:39,505 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:42,284 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:42,529 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:45,293 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:45,552 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:48,305 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:48,575 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:51,348 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:51,606 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:54,360 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:54,651 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:54:57,388 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:54:57,691 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:00,401 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:00,751 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:03,459 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:03,796 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:06,477 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:06,833 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:09,491 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:09,880 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:12,505 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:12,922 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:15,514 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:15,971 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:18,527 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:19,015 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:21,536 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:22,057 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:24,547 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:25,100 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:27,563 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:28,143 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:30,587 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:31,238 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:33,660 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:34,272 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:36,668 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:37,315 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:39,689 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:40,352 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:42,710 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:43,380 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:45,723 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:46,426 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:48,735 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:49,477 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:51,745 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:52,511 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:54,769 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:55,552 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:55:57,779 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:55:58,618 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:00,799 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:01,650 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:03,820 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:04,697 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:06,839 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:07,737 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:09,866 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:10,836 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:12,889 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:13,889 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:15,901 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:16,932 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:18,918 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:19,992 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:21,938 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:23,049 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:24,958 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:26,109 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:27,984 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:29,162 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:31,010 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:32,198 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:34,037 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:35,244 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:37,057 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:38,311 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:40,084 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:41,359 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:43,098 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:44,403 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:46,119 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:47,445 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:49,132 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:50,504 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:52,143 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:53,523 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:55,163 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:56,578 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:56:58,179 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:56:59,638 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:01,189 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:02,681 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:04,204 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:05,729 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:07,248 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:08,769 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:10,256 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:11,860 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:13,314 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:14,906 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:16,328 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:17,958 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:19,345 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:21,032 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:22,359 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:24,087 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:25,371 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:27,126 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:28,382 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:30,176 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:31,393 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:33,217 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:34,422 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:36,260 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:37,444 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:39,302 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:40,461 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:42,332 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:43,483 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:45,371 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:46,505 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:48,414 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:49,517 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:51,463 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:52,531 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:54,505 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:55,542 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:57:57,532 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:57:58,566 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:00,578 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:01,584 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:03,623 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:04,607 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:06,692 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:07,628 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:09,730 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:10,644 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:12,787 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:13,677 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:15,850 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:16,703 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:18,904 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:19,727 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:21,936 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:22,746 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:24,983 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:25,767 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:28,015 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:28,780 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:31,048 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:31,804 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:34,095 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:34,819 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:37,132 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:37,832 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:40,168 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:40,847 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:43,208 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:43,863 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:46,264 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:46,880 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:49,311 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:49,892 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:52,346 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:52,911 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:55,392 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:55,926 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:58:58,491 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:58:58,937 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:01,522 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:01,948 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:04,569 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:04,960 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:07,605 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:07,976 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:10,642 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:10,992 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:13,701 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:14,009 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:16,807 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:17,054 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:19,848 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:20,077 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:22,878 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:23,091 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:25,932 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:26,109 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:28,979 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:29,128 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:32,030 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:32,139 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:35,093 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:35,161 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:38,129 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:38,175 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:41,165 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:41,189 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:44,210 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:44,210 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:47,304 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:47,381 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:50,372 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:50,440 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:53,386 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:53,534 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:56,408 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:56,681 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 10:59:59,428 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 10:59:59,718 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:02,450 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:02,839 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:05,462 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:05,888 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:08,534 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:09,099 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:11,582 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:12,318 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:14,595 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:15,532 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:17,663 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:18,584 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:20,696 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:21,660 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:23,708 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:24,710 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:26,728 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:27,774 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:29,743 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:30,849 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:32,759 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:33,901 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:35,850 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:36,984 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:38,889 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:40,192 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:41,913 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:43,303 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:44,936 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:46,353 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:47,975 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:49,399 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:50,984 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:52,457 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:53,991 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:55,523 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:00:57,032 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:00:58,584 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:00,054 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:01,647 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:03,065 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:04,752 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:06,082 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:07,815 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:09,115 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:10,903 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:12,125 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:13,991 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:15,144 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:17,066 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:18,167 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:20,104 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:21,180 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:23,160 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:24,189 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:26,214 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:27,208 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:29,250 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:30,237 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:32,334 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:33,268 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:35,397 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:36,296 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:38,443 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:39,310 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:41,499 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:42,324 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:44,529 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:45,339 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:47,581 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:48,362 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:50,624 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:51,375 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:53,662 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:54,391 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:56,714 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:01:57,412 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:01:59,762 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:00,426 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:02,796 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:03,442 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:05,833 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:06,457 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:08,884 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:09,468 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:11,917 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:12,481 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:14,962 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:15,503 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:18,008 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:18,515 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:21,039 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:21,529 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:24,094 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:24,547 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:27,134 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:27,558 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:30,168 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:30,569 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:33,207 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:33,582 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:36,242 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:36,596 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:39,290 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:39,610 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:42,327 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:42,624 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:45,367 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:45,638 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:48,405 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:48,650 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:51,459 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:51,677 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:54,510 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:54,704 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:02:57,549 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:02:57,716 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:00,587 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:00,734 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:03,633 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:03,763 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:06,681 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:06,779 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:09,725 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:09,791 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:12,764 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:12,812 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:15,803 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:15,822 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:18,841 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:18,865 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:21,857 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:21,909 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:24,879 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:24,947 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:27,888 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:28,002 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:30,900 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:31,042 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:33,906 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:34,103 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:36,923 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:37,132 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:39,943 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:40,180 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:42,954 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:43,225 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:45,975 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:46,262 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:48,985 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:49,305 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:52,011 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:52,349 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:55,023 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:55,386 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:03:58,039 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:03:58,424 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:01,051 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:01,553 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:04,075 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:04,596 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:07,088 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:07,627 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:10,097 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:10,675 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:13,109 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:13,703 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:16,134 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:16,734 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:19,151 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:19,772 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:22,165 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:22,815 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:25,181 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:25,858 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:28,192 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:28,912 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:31,219 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:31,948 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:34,240 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:35,001 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:37,261 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:38,050 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:40,270 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:41,093 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:43,281 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:44,131 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:46,293 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:47,167 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:49,306 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:50,218 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:52,325 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:53,269 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:55,355 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:56,304 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:04:58,371 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:04:59,356 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:01,393 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:02,398 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:04,408 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:05,446 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:07,428 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:08,496 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:10,463 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:11,528 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:13,486 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:14,568 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:16,498 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:17,626 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:19,511 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:20,667 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:22,519 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:23,703 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:25,553 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:26,737 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:28,565 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:29,764 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:31,581 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:32,799 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:34,594 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:35,821 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:37,615 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:38,847 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:40,625 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:41,871 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:43,635 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:44,916 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:46,651 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:47,942 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:49,673 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:50,970 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:52,683 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:54,000 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:55,688 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:05:57,024 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:05:58,695 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:00,083 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:01,703 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:03,105 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:04,711 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:06,135 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:07,721 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:09,169 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:10,733 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:12,209 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:13,746 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:15,237 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:16,757 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:18,306 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:19,771 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:21,335 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:22,785 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:24,362 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:25,798 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:27,394 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:28,808 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:30,429 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:31,820 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:33,472 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:34,834 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:36,505 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:37,847 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:39,535 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:40,858 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:42,565 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:43,870 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:45,611 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:46,886 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:48,651 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:49,894 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:51,694 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:52,903 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:54,721 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:55,912 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:06:57,755 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:06:58,921 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:00,814 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:01,931 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:03,846 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:04,942 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:06,888 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:07,955 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:09,912 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:10,967 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:12,937 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:13,977 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:15,966 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:16,992 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:19,000 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:20,006 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:22,036 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:23,018 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:25,075 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:26,031 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:28,110 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:29,047 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:31,140 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:32,059 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:34,173 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:35,083 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:37,243 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:38,090 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:40,289 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:41,097 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:43,312 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:44,106 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:46,345 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:47,113 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:49,386 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:50,120 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:52,422 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:53,127 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:55,464 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:56,136 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:07:58,499 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:07:59,146 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:01,534 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:02,157 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:04,570 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:05,167 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:07,606 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:08,180 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:10,637 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:11,194 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:13,667 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:14,204 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:16,705 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:17,214 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:19,734 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:20,231 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:22,766 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:23,246 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:25,796 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:26,256 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:28,825 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:29,266 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:31,866 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:32,280 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:34,896 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:35,290 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:37,916 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:38,298 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:40,944 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:41,306 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:43,976 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:44,312 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:47,007 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:47,355 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:50,042 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:50,361 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:53,066 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:53,372 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 11:08:56,089 - plc_client_sync.log - INFO - 写给PLC心跳信号 成功 - client.py:229
+2025-12-24 11:08:56,382 - plc_client_sync.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
