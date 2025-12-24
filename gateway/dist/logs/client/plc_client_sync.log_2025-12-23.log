@@ -1,0 +1,4 @@
+2025-12-23 17:33:33,804 - plc_client_sync.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-23 17:33:33,822 - plc_client_sync.log - ERROR - 加载配置文件失败: 配置文件不存在: config/PLC1_CONF.ini - client.py:79
+2025-12-23 17:33:46,029 - plc_client_sync.log - INFO - PLC 连接监控已停止 - client.py:215
+2025-12-23 17:33:46,045 - plc_client_sync.log - INFO - PLC 心跳任务已停止 - client.py:251

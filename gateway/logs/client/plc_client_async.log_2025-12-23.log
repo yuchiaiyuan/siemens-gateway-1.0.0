@@ -1,0 +1,390 @@
+2025-12-23 14:54:55,593 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-23 14:54:55,635 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-23 14:54:55,636 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-23 14:54:55,661 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-23 14:54:55,663 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-23 14:54:55,663 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-23 14:54:55,668 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 14:57:04,073 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-23 14:57:04,117 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-23 14:57:04,119 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-23 14:57:04,142 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-23 14:57:04,143 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-23 14:57:04,143 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-23 14:57:04,148 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 14:58:33,044 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-23 14:58:33,100 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-23 14:58:33,101 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-23 14:58:33,139 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-23 14:58:33,141 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-23 14:58:33,142 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-23 14:58:33,148 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 14:59:22,413 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-23 14:59:22,463 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-23 14:59:22,464 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-23 14:59:22,484 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-23 14:59:22,487 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-23 14:59:22,487 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-23 14:59:22,495 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 14:59:52,717 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-23 14:59:52,761 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-23 14:59:52,762 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-23 14:59:52,785 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-23 14:59:52,786 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-23 14:59:52,786 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-23 14:59:52,791 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 14:59:59,898 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-23 14:59:59,965 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-23 14:59:59,966 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-23 14:59:59,992 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-23 14:59:59,994 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-23 14:59:59,994 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-23 15:00:00,008 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:03,018 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:06,027 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:09,040 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:12,048 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:15,058 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:18,081 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:21,091 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:24,102 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:27,114 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:30,126 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:33,139 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:36,149 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:39,163 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:42,177 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:45,190 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:48,204 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:51,217 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:54,230 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:00:57,242 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:00,266 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:03,278 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:06,296 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:09,319 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:12,334 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:15,351 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:18,368 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:21,396 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:24,412 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:27,433 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:30,448 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:33,459 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:36,469 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:39,485 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:42,521 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:45,544 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:48,549 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:51,563 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:54,576 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:01:57,594 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:00,618 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:03,640 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:06,664 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:09,678 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:12,692 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:15,711 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:18,723 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:21,730 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:24,742 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:27,756 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:30,782 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:33,808 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:36,830 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:39,843 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:42,865 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:45,885 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:48,910 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:51,928 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:54,951 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:02:57,972 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:00,992 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:04,004 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:07,020 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:10,045 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:13,066 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:16,080 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:19,089 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:22,120 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:25,147 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:28,158 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:31,167 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:34,178 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:37,194 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:40,222 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:43,249 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:46,263 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:49,279 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:52,298 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:55,320 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:03:58,338 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:01,372 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:04,389 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:07,419 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:10,446 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:13,470 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:16,491 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:19,532 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:22,542 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:25,578 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:28,594 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:31,607 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:34,623 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:37,642 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:40,656 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:43,671 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:46,690 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:49,745 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:52,753 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:55,767 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:04:58,785 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:01,797 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:04,804 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:07,816 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:10,826 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:13,842 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:16,860 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:19,892 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:22,920 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:25,930 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:28,945 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:31,953 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:34,963 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:37,969 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:40,979 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:43,989 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:47,005 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:50,030 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:53,058 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:56,069 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:05:59,081 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:02,099 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:05,140 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:08,154 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:11,163 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:14,176 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:17,194 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:20,208 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:23,239 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:26,263 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:29,282 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:32,332 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:35,353 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:38,362 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:41,381 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:44,408 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:47,427 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:50,436 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:53,453 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:56,477 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:06:59,500 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:02,523 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:05,532 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:08,545 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:11,560 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:14,588 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:17,613 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:20,639 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:23,661 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:26,679 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:29,703 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:32,729 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:35,788 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:38,805 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:41,825 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:44,839 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:47,889 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:50,922 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:53,936 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:56,946 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:07:59,959 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:02,993 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:06,016 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:09,046 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:12,063 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:15,078 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:18,095 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:21,126 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:24,140 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:27,149 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:30,159 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:33,170 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:36,192 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:39,213 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:42,230 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:45,245 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:48,275 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:51,296 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:54,338 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:08:57,348 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:00,361 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:03,374 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:06,402 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:09,420 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:12,444 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:15,458 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:18,469 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:21,483 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:24,495 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:27,509 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:30,536 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:33,552 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:36,573 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:39,592 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:42,609 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:45,628 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:48,638 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:51,654 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:54,669 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:09:57,693 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:00,715 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:03,747 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:06,763 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:09,780 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:12,791 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:15,804 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:18,819 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:21,836 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:24,852 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:27,879 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:30,917 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:33,942 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:36,952 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:39,967 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:42,987 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:46,003 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:49,022 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:52,040 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:55,058 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:10:58,091 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:01,113 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:04,123 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:07,139 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:10,164 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:13,191 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:16,220 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:19,230 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:22,243 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:25,261 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:28,280 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:31,290 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:34,302 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:37,333 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:40,354 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:43,367 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:46,391 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:49,405 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:52,421 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:55,465 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:11:58,492 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:01,520 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:04,540 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:07,594 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:10,612 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:13,637 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:16,652 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:19,674 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:22,705 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:25,760 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:28,777 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:31,815 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:34,848 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:37,861 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:40,881 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:43,895 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:46,931 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:49,948 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:52,977 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:56,005 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:12:59,027 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:02,054 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:05,079 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:08,087 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:11,108 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:14,133 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:17,144 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:20,162 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:23,184 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:26,207 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:29,243 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:32,256 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:35,262 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:38,272 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:41,283 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:44,294 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:47,310 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:50,335 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:53,357 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:56,368 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:13:59,385 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:02,403 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:05,417 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:08,439 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:11,468 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:14,482 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:17,508 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:20,523 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:23,531 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:26,540 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:29,559 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:32,569 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:35,588 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:38,611 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:41,635 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:44,663 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:47,681 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:50,693 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:53,720 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:56,733 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:14:59,811 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:15:02,834 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:15:05,851 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:15:08,879 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:15:11,904 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:15:14,925 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:15:17,939 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:15:20,971 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:15:23,979 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:15:26,986 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:15:30,001 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 15:15:33,011 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:17:19,988 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-23 17:17:20,029 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-23 17:17:20,030 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-23 17:17:20,048 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-23 17:17:20,050 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-23 17:17:20,050 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-23 17:17:20,055 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:17:23,062 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:17:26,076 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:17:29,086 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:17:32,096 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:17:35,103 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:27:43,127 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-23 17:27:43,172 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-23 17:27:43,174 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-23 17:27:43,194 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-23 17:27:43,196 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-23 17:27:43,197 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-23 17:27:43,204 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:27:46,230 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:27:49,238 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:27:52,245 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:27:55,253 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:27:58,259 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:55:26,944 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-23 17:55:26,985 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-23 17:55:26,986 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-23 17:55:27,004 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-23 17:55:27,006 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-23 17:55:27,006 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-23 17:55:27,011 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:55:30,019 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:55:33,028 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:55:36,034 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:55:39,041 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:55:42,049 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:55:45,056 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:55:48,062 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-23 17:55:51,069 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
