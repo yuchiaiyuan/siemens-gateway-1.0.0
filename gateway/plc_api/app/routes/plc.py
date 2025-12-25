@@ -99,6 +99,12 @@ def write_tags():
         # 调用内部PLC写入函数
         results = internal_write_tags(data)
 
+        #返空检查
+        if len(results) == 0 :
+            return error_response(
+                "所有标签写入失败！",
+                errors=[]
+            )
         # 检查写入结果
         failed_writes = {tag: success for tag, success in results.items() if not success}
         if failed_writes:

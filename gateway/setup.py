@@ -11,7 +11,7 @@ if __name__ == '__main__':
     opts = [
         '__main__.py',  # 入口文件
         '--onefile',  # 打包为单个exe
-        '--name=siemens-gateway-1.0.0',  # 可执行文件名称
+        '--name=siemens-gateway-1.0.3',  # 可执行文件名称
         '--add-data=plc;plc',  # 添加plc包
         '--add-data=plc_api;plc_api',  # 添加plc_api包
         '--hidden-import=plc',  # 确保plc包被包含

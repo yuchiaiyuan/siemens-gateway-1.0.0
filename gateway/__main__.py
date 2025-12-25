@@ -77,7 +77,7 @@ def main():
         # 模拟主循环（替换为你的实际业务逻辑）
         while True:
             time.sleep(2)
-
+            # print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
     except Exception as e:
         print(f"[错误] 程序异常退出：{e}")
         input("按回车退出...")

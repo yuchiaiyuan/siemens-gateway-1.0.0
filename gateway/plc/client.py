@@ -31,7 +31,7 @@ class PLCClient:
 
         # -------------------------- 关键优化1：初始化互斥锁 --------------------------
         self.client_lock = threading.RLock()  # 保护 client 操作的互斥锁
-        self.connect_timeout = 5  # 连接等待超时时间（秒）
+        self.connect_timeout = 2  # 连接等待超时时间（秒）
         self.lock_timeout = 3  # 锁获取超时时间（秒，防止死锁）
 
         # 和PLC通讯的心跳开关，一个PLC开一个心跳即可
@@ -102,7 +102,7 @@ class PLCClient:
             if self.connected and self.client:
                 self.logger.warning("PLC 已处于连接状态，无需重复连接")
                 return True
-
+            self.logger.warning("...尝试重连PLC链接...")
             # 创建客户端实例
             self.client = snap7.client.Client()
             self.client.connect(self.plc_ip, self.plc_rack, self.plc_slot, self.plc_port)
@@ -146,40 +146,48 @@ class PLCClient:
 
     # -------------------------- 关键优化4：连接检查加锁 --------------------------
     def check_connection(self):
-        """检查 PLC 连接状态（加锁避免与业务线程冲突）"""
-
         if not self.client_lock.acquire(timeout=self.lock_timeout):
             self.logger.error("获取连接检查锁超时")
             return False
 
         try:
             if not self.client:
+                was_connected = self.connected
+                self.connected = False
+                if was_connected:
+                    self.logger.error("PLC 客户端未初始化，连接已断开")
                 return False
 
-                # 尝试读取一个字节来检查连接状态
-                # 这里读取 DB1 的第一个字节，如果DB1不存在会抛出异常
+            # 尝试读取一个字节来检查连接状态
             self.client.db_read(self.db_number, self.byte_offset, 1)
-            self.logger.info("周期性监测PLC连接状态：正常")
 
+            # 连接正常
             if not self.connected:
                 self.connected = True
                 self.logger.info("PLC 连接已恢复")
+            else:
+                self.logger.info("周期性监测PLC连接状态：正常")
             return True
 
         except Exception as e:
-            if self.connected:
-                self.connected = False
+            was_connected = self.connected
+            self.connected = False
+
+            # 只有状态发生变化时才记录日志，避免重复日志
+            if was_connected:
                 self.logger.error(f"PLC 连接异常: {e}")
             return False
+
         finally:
             self.client_lock.release()
+
 
     def reconnect(self):
         """尝试重新连接 PLC（无修改，依赖 connect 加锁）"""
 
         self.logger.warning("尝试重新连接 PLC...")
         self.disconnect()
-        time.sleep(2)
+        time.sleep(0.5)
         return self.connect()
 
     def monitor_task(self):
@@ -224,13 +232,16 @@ class PLCClient:
         self.logger.info("启动 PLC心跳 任务")
         try:
             while not self.stop_heart:
-                time.sleep(self.check_interval)
-                if self.writeDB_NegateBit(self.db_number, self.byte_offset, self.bit_index):
-                    self.logger.info(f"写给PLC心跳信号 成功")
-                else:
-                    raise (f"写给PLC心跳信号 失败")
+                try:
+                    time.sleep(self.check_interval)
+                    if self.writeDB_NegateBit(self.db_number, self.byte_offset, self.bit_index):
+                        self.logger.info(f"写给PLC心跳信号 成功")
+                    else:
+                        self.logger.error(f"错误：写给PLC心跳信号 失败！")
+                except Exception as e:
+                    self.logger.error(f"心跳读写任务发生异常: {e}")
         except Exception as e:
-            self.logger.error(f"心跳读写任务发生异常: {e}")
+            self.logger.error(f"！！！！！- 心跳线程异常退出 - ！！！！！: {e}")
 
     def start_heart(self):
         """启动监控线程（无修改）"""
@@ -259,7 +270,7 @@ class PLCClient:
         self.disconnect()
 
     # -------------------------- 关键优化5：等待连接就绪（提升可用性） --------------------------
-    def wait_for_connection(self, timeout=None):
+    def wait_for_connection(self, timeout=5):
         """等待 PLC 连接就绪（避免未连接时直接抛错）"""
         start_time = time.time()
         while True:
@@ -271,8 +282,8 @@ class PLCClient:
             if self.connected and self.client:
                 return True
             # 未就绪则等待
-            self.logger.debug("等待 PLC 连接就绪...")
-            time.sleep(0.5)
+            self.logger.warning("等待 PLC 连接就绪...")
+            time.sleep(1)
 
     # ------------------------   boolen （加锁+bug修复） ------------------------
     def readDB_Bit(self, db_num: int, byte_offset: int, bit_offset: int):

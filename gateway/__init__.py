@@ -183,6 +183,10 @@ def init():
         else:
             PLC.LOG.debug("任务执行成功")
     try:
+        # 设置 APScheduler 的日志级别为 ERROR，避免输出 SKIPPED 信息
+        logging.getLogger('apscheduler.scheduler').setLevel(logging.ERROR)
+        logging.getLogger('apscheduler.executors.default').setLevel(logging.ERROR)
+
         # 创建调度器配置
         scheduler = BackgroundScheduler({
             'apscheduler.job_defaults.max_instances': 1,  # 允许的最大并发实例数

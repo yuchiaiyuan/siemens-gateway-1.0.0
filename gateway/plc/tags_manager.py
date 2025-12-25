@@ -343,6 +343,8 @@ class DBPLCTagManager:
             try:
                 # 读取数据
                 result, data = self._plc_client_async.readDB_Byte(db_number, start_offset, read_size)
+                if not result:
+                    raise ValueError(f"批量读取时，未能正常获取bytes数据！")
 
                 # 解析每个标签的值
                 for tag in tags:
@@ -411,7 +413,7 @@ class DBPLCTagManager:
                     tag.value = value
                     results[tag.tagpath] = value
 
-            except Exception as e:
+            except (Exception,ValueError) as e:
                 self.logger.error(f"批量读取时，发生严重错误：[{e}]")
                 # 标记这些标签读取失败
                 for tag in tags:
@@ -498,7 +500,9 @@ class DBPLCTagManager:
     def write_pending_tags(self) -> Dict[str, bool]:
         """批量写入所有待写入的标签值"""
         if self._plc_client_async is None:
-            raise RuntimeError("未设置PLC客户端")
+            self.logger.error("未设置PLC客户端")
+            # 标记这些标签写入失败
+            return {}
 
         # 获取所有有待写入值的标签
         pending_tags = [tag for tag in self.tags.values() if tag.has_pending_write()]
