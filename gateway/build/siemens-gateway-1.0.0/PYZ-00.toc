@@ -1586,10 +1586,6 @@
   ('site',
    'C:\\Users\\yuaiyuan\\anaconda3\\envs\\snap\\lib\\site.py',
    'PYMODULE'),
-  ('sitecustomize',
-   'C:\\Program Files\\JetBrains\\PyCharm '
-   '2025.1.1.1\\plugins\\python-ce\\helpers\\pycharm_matplotlib_backend\\sitecustomize.py',
-   'PYMODULE'),
   ('smtplib',
    'C:\\Users\\yuaiyuan\\anaconda3\\envs\\snap\\lib\\smtplib.py',
    'PYMODULE'),

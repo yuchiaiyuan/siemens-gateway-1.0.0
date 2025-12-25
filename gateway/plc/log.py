@@ -6,6 +6,37 @@ from logging.handlers import RotatingFileHandler
 from datetime import datetime
 
 
+# 定义颜色代码
+class LogColors:
+    RESET = '\033[0m'
+    WHITE = '\033[97m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
+    GRAY = '\033[90m'
+
+
+class ColoredFormatter(logging.Formatter):
+    """自定义格式化器，为不同级别的日志添加颜色"""
+
+    def __init__(self, fmt=None, datefmt=None, style='%'):
+        super().__init__(fmt, datefmt, style)
+
+    def format(self, record):
+        # 根据日志级别设置颜色
+        if record.levelno >= logging.ERROR:
+            color = LogColors.RED
+        elif record.levelno >= logging.WARNING:
+            color = LogColors.YELLOW
+        else:
+            color = LogColors.WHITE
+
+        # 格式化消息并添加颜色
+        message = super().format(record)
+        return f"{color}{message}{LogColors.RESET}"
+
+
 class AppLogger:
     """
     作者：尉
@@ -13,7 +44,8 @@ class AppLogger:
     应用程序日志类，提供统一的日志记录功能，支持多个独立实例
     """
 
-    def __init__(self, name: str = None, log_dir: str = 'logs', level: object = logging.INFO, max_bytes: int = 10 * 1024 * 1024,
+    def __init__(self, name: str = None, log_dir: str = 'logs', level: object = logging.INFO,
+                 max_bytes: int = 10 * 1024 * 1024,
                  backup_count: int = 10) -> None:
         """
         初始化日志记录器
@@ -53,8 +85,13 @@ class AppLogger:
         current_date = datetime.now().strftime('%Y-%m-%d')
         log_filename = f"{self.log_dir}/{self.name}_{current_date}.log"
 
-        # 创建格式化器
-        formatter = logging.Formatter(
+        # 创建格式化器 - 文件日志不使用颜色
+        file_formatter = logging.Formatter(
+            '%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)d'
+        )
+
+        # 控制台日志使用带颜色的格式化器
+        console_formatter = ColoredFormatter(
             '%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)d'
         )
 
@@ -66,12 +103,12 @@ class AppLogger:
             encoding='utf-8'
         )
         file_handler.setLevel(self.level)
-        file_handler.setFormatter(formatter)
+        file_handler.setFormatter(file_formatter)
 
         # 创建控制台处理器
         console_handler = logging.StreamHandler()
         console_handler.setLevel(self.level)
-        console_handler.setFormatter(formatter)
+        console_handler.setFormatter(console_formatter)
 
         # 添加处理器到记录器
         self.logger.addHandler(file_handler)
@@ -81,11 +118,21 @@ class AppLogger:
 
     def _update_formatters(self):
         """更新所有处理器的格式化器以包含调用者信息"""
-        formatter = logging.Formatter(
+        # 文件日志格式化器
+        file_formatter = logging.Formatter(
             '%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)d'
         )
+
+        # 控制台日志格式化器（带颜色）
+        console_formatter = ColoredFormatter(
+            '%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)d'
+        )
+
         for handler in self.logger.handlers:
-            handler.setFormatter(formatter)
+            if isinstance(handler, logging.StreamHandler):
+                handler.setFormatter(console_formatter)
+            else:
+                handler.setFormatter(file_formatter)
 
     def _get_caller_info(self):
         """获取调用者信息（文件名和行号）"""
@@ -156,8 +203,9 @@ class AppLogger:
         for handler in self.logger.handlers:
             handler.setLevel(level)
 
+
 ####  预定义一个通用的日志实列作为通用存  ####
-#logger = AppLogger(name="logger", log_dir="logs")
+# logger = AppLogger(name="logger", log_dir="logs")
 
 
 # 示例使用
@@ -171,6 +219,8 @@ if __name__ == '__main__':
     logger1.info('这是模块1的日志')
     logger2.warning('这是模块2的警告')
     logger3.debug('这是匿名日志器的调试信息')
+    logger1.error('这是一个错误信息')
+    logger2.critical('这是一个严重错误')
 
     # 验证它们是不同的实例
     print(f"Logger1名称: {logger1.name}")

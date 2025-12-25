@@ -4,24 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1afae-72c8-4d71-a79d-6cbd2f5e6a4c" name="更改" comment="2025-12-24">
+    <list default="true" id="bce1afae-72c8-4d71-a79d-6cbd2f5e6a4c" name="更改" comment="v1.0.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/config/Database.db" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/config/Database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/config/PLC1_CONF.ini" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/config/PLC1_CONF.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/logs/app/app.log_2025-12-24.log" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/logs/app/app.log_2025-12-24.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/logs/client/plc_client_async.log_2025-12-24.log" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/logs/client/plc_client_async.log_2025-12-24.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/logs/client/plc_client_sync.log_2025-12-24.log" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/logs/client/plc_client_sync.log_2025-12-24.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/logs/external_api/external_api.log_2025-12-24.log" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/logs/external_api/external_api.log_2025-12-24.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/logs/monitor_handler/monitor_handler.log_2025-12-24.log" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/logs/monitor_handler/monitor_handler.log_2025-12-24.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/logs/tags_manager/tags_manager.log_2025-12-24.log" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/logs/tags_manager/tags_manager.log_2025-12-24.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/plc/tags_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/plc/tags_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/siemens-gateway-1.0.0.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/siemens-gateway-1.0.0.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/warn-siemens-gateway-1.0.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/warn-siemens-gateway-1.0.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/xref-siemens-gateway-1.0.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/xref-siemens-gateway-1.0.0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/dist/siemens-gateway-1.0.0.exe" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/dist/siemens-gateway-1.0.0.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/plc/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/plc/log.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="dev" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -57,6 +60,8 @@
     "Python.__init__.executor": "Run",
     "Python.__main__.executor": "Run",
     "Python.client.executor": "Run",
+    "Python.log.executor": "Run",
+    "Python.setup.executor": "Run",
     "Python.tags_manager.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -90,6 +95,20 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,20 +132,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,40 +142,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Docutils task">
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Sphinx task">
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -197,7 +168,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
         <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
@@ -227,9 +197,31 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2025-12-24" />
     <option name="LAST_COMMIT_MESSAGE" value="2025-12-24" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gateway/plc/tags_manager.py</url>
+          <line>326</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/siemens_gateway_1_0_0$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1766571084795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway" />
@@ -239,7 +231,7 @@
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$monitor.coverage" NAME="monitor 覆盖结果" MODIFIED="1766471712270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway/plc" />
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$initial.coverage" NAME="initial 覆盖结果" MODIFIED="1765388389021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plc" />
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$monitor_handler.coverage" NAME="monitor_handler 覆盖结果" MODIFIED="1765487107698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plc" />
-    <SUITE FILE_PATH="coverage/siemens_gateway_1_0_0$__main__.coverage" NAME="__main__ 覆盖结果" MODIFIED="1766634280199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway" />
+    <SUITE FILE_PATH="coverage/siemens_gateway_1_0_0$__main__.coverage" NAME="__main__ 覆盖结果" MODIFIED="1766634727236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway" />
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$monitor_handler_register.coverage" NAME="monitor_handler_register 覆盖结果" MODIFIED="1766472448090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway" />
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$main.coverage" NAME="main 覆盖结果" MODIFIED="1766472205880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway/plc" />
     <SUITE FILE_PATH="coverage/siemens_gateway_1_0_0$client.coverage" NAME="client 覆盖结果" MODIFIED="1766633077986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway/plc" />
@@ -251,9 +243,9 @@
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$global.coverage" NAME="global 覆盖结果" MODIFIED="1766045285550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plc/config" />
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$__main__.coverage" NAME="__main__ 覆盖结果" MODIFIED="1766483726648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway" />
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$run.coverage" NAME="run 覆盖结果" MODIFIED="1766390778441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plc_api" />
-    <SUITE FILE_PATH="coverage/siemens_gateway_1_0_0$tags_manager.coverage" NAME="tags_manager 覆盖结果" MODIFIED="1766629767909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway/plc" />
+    <SUITE FILE_PATH="coverage/siemens_gateway_1_0_0$tags_manager.coverage" NAME="tags_manager 覆盖结果" MODIFIED="1766634722217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway/plc" />
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$job_get_plc_data.coverage" NAME="job_get_plc_data 覆盖结果" MODIFIED="1766305810642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plc" />
-    <SUITE FILE_PATH="coverage/siemens_gateway_1_0_0$setup.coverage" NAME="setup 覆盖结果" MODIFIED="1766546604284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway" />
+    <SUITE FILE_PATH="coverage/siemens_gateway_1_0_0$setup.coverage" NAME="setup 覆盖结果" MODIFIED="1766635635510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gateway" />
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$pytest__test_util_py__.coverage" NAME="pytest (test_util.py 内) 覆盖结果" MODIFIED="1765225671243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$plc.coverage" NAME="plc 覆盖结果" MODIFIED="1766400538693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plc_api/app/routes" />
     <SUITE FILE_PATH="coverage/python_snap7_2_0_2$my1stPLC.coverage" NAME="my1stPLC 覆盖结果" MODIFIED="1765223940528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
