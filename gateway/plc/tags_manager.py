@@ -347,18 +347,38 @@ class DBPLCTagManager:
                 # 解析每个标签的值
                 for tag in tags:
                     relative_offset = tag.start_offset - start_offset
-                    tag_data = data[relative_offset:relative_offset + tag.size]
+                    tag_data = data[relative_offset : relative_offset + tag.size]
 
                     if tag.data_type == 'bool' and tag.bit_index is not None:
-                        value = get_bool(tag_data, 0, tag.bit_index)
+                        try:
+                            value = get_bool(tag_data, 0, tag.bit_index)
+                        except Exception as e:
+                            value = None
+                            self.logger.error(f"解析tag：{tag.tagpath}发生错误[{e}]，请检查变量配置是否正确！")
                     elif tag.data_type == 'int':
-                        value = get_int(tag_data, 0)
+                        try:
+                            value = get_int(tag_data, 0)
+                        except Exception as e:
+                            value = None
+                            self.logger.error(f"解析tag：{tag.tagpath}发生错误[{e}]，请检查变量配置是否正确！")
                     elif tag.data_type == 'dint':
-                        value = get_dint(tag_data, 0)
+                        try:
+                            value = get_dint(tag_data, 0)
+                        except Exception as e:
+                            value = None
+                            self.logger.error(f"解析tag：{tag.tagpath}发生错误[{e}]，请检查变量配置是否正确！")
                     elif tag.data_type == 'real':
-                        value = get_real(tag_data, 0)
+                        try:
+                            value = get_real(tag_data, 0)
+                        except Exception as e:
+                            value = None
+                            self.logger.error(f"解析tag：{tag.tagpath}发生错误[{e}]，请检查变量配置是否正确！")
                     elif tag.data_type == 'lreal':
-                        value = get_lreal(tag_data, 0)
+                        try:
+                            value = get_lreal(tag_data, 0)
+                        except Exception as e:
+                            value = None
+                            self.logger.error(f"解析tag：{tag.tagpath}发生错误[{e}]，请检查变量配置是否正确！")
                     elif tag.data_type == 'string':
                         # 读取字符串数据（包括2字节的头部）
                         buffer = data[relative_offset:relative_offset + tag.size +2]
@@ -392,7 +412,7 @@ class DBPLCTagManager:
                     results[tag.tagpath] = value
 
             except Exception as e:
-                self.logger.error(f"读取DB{db_number}失败: {e}")
+                self.logger.error(f"批量读取时，发生严重错误：[{e}]")
                 # 标记这些标签读取失败
                 for tag in tags:
                     results[tag.tagpath] = None
@@ -578,7 +598,7 @@ class DBPLCTagManager:
                 self._plc_client_async.writeDB_Byte(db_number, start_offset, modified_data)
 
             except Exception as e:
-                self.logger.error(f"写入DB{db_number}失败: {e}")
+                self.logger.error(f"批量pending写入DB{db_number}失败: {e}")
                 # 标记这些标签写入失败
                 for tag in tags:
                     results[tag.tagpath] = False
@@ -601,7 +621,9 @@ class DBPLCTagManager:
     def _calculate_read_range(self, tags: List[DBPLCTag]) -> tuple:
         """计算读取的起始和结束偏移量"""
         start_offset = min([tag.start_offset for tag in tags])
-        end_offset = max([tag.start_offset + tag.size - 1 for tag in tags])
+        end_offset = max([tag.start_offset + tag.size - 1 if tag.data_type != "string"
+                          else tag.start_offset + tag.size + 1
+                          for tag in tags])
         return start_offset, end_offset
 
     def _calculate_write_range(self, tags: List[DBPLCTag]) -> tuple:

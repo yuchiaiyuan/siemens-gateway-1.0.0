@@ -13,6 +13,7 @@
         ...
 """
 import logging
+import sys
 import time
 
 from apscheduler.events import EVENT_JOB_EXECUTED, EVENT_JOB_ERROR
@@ -50,11 +51,43 @@ def load_tags_conf(config_db_path):
         desc = row[5]
         default_value = row[6]
         config_monitor = row[7]
-        data_type = row[8]
+        data_type = row[8].replace(" ", "").lower()
         db_number = row[9]
         byte_offset = row[10]
         bit_index = row[11]
         size = row[12]
+
+        TYPE_LEN = {
+            "bool": 1,
+            "int": 2,
+            "dint": 4,
+            "real": 4,
+            "lreal": 8,
+            "string": size
+        }
+
+        if data_type not in TYPE_LEN:
+            PLC.LOG.error(f"标签[{tagpath}]数据类型[{data_type}]配置错误，不在[bool,int,dint,real,lreal,string]范围！")
+            sys.exit(0)
+
+        if data_type == "bool" and bit_index not in [0,1,2,3,4,5,6,7]:
+            PLC.LOG.error(f"标签[{tagpath}]数据bit_index = {bit_index} 配置错误，不在[0~7]范围！")
+            sys.exit(0)
+
+        if db_number < 1:
+            PLC.LOG.error(f"标签[{tagpath}]数据db_number = {db_number} 配置错误，不在合法范围！")
+            sys.exit(0)
+
+        if byte_offset < 0:
+            PLC.LOG.error(f"标签[{tagpath}]数据byte_offset = {byte_offset} 配置错误，不在合法范围！")
+            sys.exit(0)
+
+        if config_monitor not in [0 , 1]:
+            PLC.LOG.error(f"标签[{tagpath}]数据config_monitor = {config_monitor} 配置错误，不在[0,1]合法范围内！")
+            sys.exit(0)
+
+        size = TYPE_LEN[data_type]
+
 
         tag['plc'] = plc
         tag['group'] = group

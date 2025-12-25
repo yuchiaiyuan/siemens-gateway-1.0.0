@@ -7,6 +7,8 @@ from ctypes import windll
 # 导入业务初始化函数
 from gateway.__init__ import init
 
+import gateway.config.globals
+
 # 1. 互斥体名称：显式Local\前缀（本地会话级），GUID保证全局唯一
 # 若需跨管理员/普通权限运行，改为Global\（需管理员身份启动）
 MUTEX_NAME = "Local\\GateWay_唯一标识_8F6F0AC4-9030-11D1-9191-006008029A37"
@@ -75,6 +77,7 @@ def main():
         # 模拟主循环（替换为你的实际业务逻辑）
         while True:
             time.sleep(2)
+
     except Exception as e:
         print(f"[错误] 程序异常退出：{e}")
         input("按回车退出...")

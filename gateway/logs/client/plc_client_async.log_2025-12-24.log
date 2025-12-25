@@ -524,3 +524,701 @@
 2025-12-24 11:08:51,257 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
 2025-12-24 11:08:54,276 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
 2025-12-24 11:08:57,287 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 12:07:44,577 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 12:07:44,622 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 12:07:44,623 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 12:07:44,643 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 12:07:44,645 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 12:07:44,646 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 12:07:44,652 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 12:07:47,659 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 12:07:50,666 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 12:07:53,674 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 12:07:56,683 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:04:17,099 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:04:17,200 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:04:17,200 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 18:04:17,224 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:04:17,225 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:04:17,226 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:04:17,232 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:04:17,232 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:04:17,233 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:04:19,254 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:04:19,488 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:19,491 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.6089 秒 - client.py:89
+2025-12-24 18:04:19,788 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:19,978 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:20,148 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:20,355 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:20,558 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:20,747 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:20,965 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:21,159 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:21,452 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:21,562 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:21,760 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:04:21,963 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:51,567 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:06:51,618 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:06:51,618 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 18:06:51,638 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:06:51,641 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:06:51,641 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:06:51,645 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:06:51,646 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:06:51,647 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:06:53,665 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:06:53,797 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:53,803 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.5960 秒 - client.py:89
+2025-12-24 18:06:54,072 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:54,287 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:54,465 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:54,667 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:54,897 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:55,079 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:55,268 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:55,470 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:55,670 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:55,875 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:56,063 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:56,272 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:56,474 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:56,673 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:56,682 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:06:56,686 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:06:56,689 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:06:58,709 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:06:58,880 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:58,882 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 2.0771 秒 - client.py:89
+2025-12-24 18:06:59,071 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:59,265 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:59,465 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:59,675 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:06:59,879 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:00,073 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:00,273 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:00,475 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:00,671 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:00,866 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:01,071 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:01,275 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:01,468 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:01,664 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:01,718 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:07:01,719 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:07:01,720 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:07:03,745 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:07:03,893 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:03,899 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 2.0919 秒 - client.py:89
+2025-12-24 18:07:04,072 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:04,264 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:04,479 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:04,686 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:04,882 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:05,072 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:05,269 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:05,485 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:05,677 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:05,866 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:06,072 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:06,270 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:06,464 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:06,665 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:06,751 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:07:06,752 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:07:06,753 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:07:08,780 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:07:08,885 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:08,891 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 2.0845 秒 - client.py:89
+2025-12-24 18:07:09,077 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:09,266 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:09,469 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:09,662 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:09,868 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:10,071 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:10,273 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:10,485 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:10,672 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:10,867 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:11,064 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:11,271 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:11,463 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:11,663 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:11,787 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:07:11,788 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:07:11,789 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:07:13,816 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:07:13,888 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:13,890 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 2.0863 秒 - client.py:89
+2025-12-24 18:07:14,067 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:14,276 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:14,475 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:14,677 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:14,881 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:15,073 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:15,275 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:15,476 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:15,682 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:15,878 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:16,070 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:16,276 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:16,476 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:16,678 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:16,877 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:16,898 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:07:16,901 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:07:16,902 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:07:18,925 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:07:19,090 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:19,092 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 2.0869 秒 - client.py:89
+2025-12-24 18:07:19,261 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:19,463 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:19,674 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:19,881 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:20,079 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:20,283 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:20,474 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:20,811 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:20,826 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.2101 秒 - client.py:89
+2025-12-24 18:07:21,076 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:21,272 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:21,470 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:21,674 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:21,871 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:21,934 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:07:21,935 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:07:21,937 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:07:23,963 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:07:24,078 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:07:24,081 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 2.0758 秒 - client.py:89
+2025-12-24 18:07:42,396 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:07:42,433 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:07:42,434 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 18:07:42,453 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:07:42,456 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:07:42,456 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:07:42,461 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:07:42,462 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:07:42,463 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:07:47,001 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:07:47,039 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:07:47,039 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 18:07:47,059 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:07:47,061 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:07:47,062 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:07:47,066 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:07:47,067 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:07:47,068 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:07:49,098 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:07:52,108 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:07:52,112 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:07:52,114 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:07:54,149 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:07:57,158 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:07:57,160 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:07:57,162 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:07:59,188 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:08:02,201 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:08:02,205 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:08:02,209 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:08:04,241 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:08:07,254 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:08:07,257 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:08:07,260 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:08:09,286 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:08:12,305 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:08:12,309 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:08:12,313 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:08:14,345 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:08:17,358 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:08:17,361 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:08:17,365 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:08:19,395 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:09:27,890 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:09:27,933 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:09:27,934 - plc_client_async.log - INFO - 健康检查地址为：DB10108,BYTE2500,BIT0 - client.py:76
+2025-12-24 18:09:27,952 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:09:27,954 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:09:27,955 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:09:27,967 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:09:27,968 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:09:27,969 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:09:29,994 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:09:33,004 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:09:33,006 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:09:33,010 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:09:35,033 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:09:38,043 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:09:38,045 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:09:38,048 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:09:40,071 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:09:43,084 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:09:43,088 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:09:43,090 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:09:45,113 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:09:48,121 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:09:48,127 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:09:48,134 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:09:50,163 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:09:53,172 - plc_client_async.log - ERROR - PLC 连接异常: b'CPU : Address out of range' - client.py:172
+2025-12-24 18:09:53,173 - plc_client_async.log - WARNING - 尝试重新连接 PLC... - client.py:180
+2025-12-24 18:09:53,175 - plc_client_async.log - INFO - 已断开 PLC 连接 - client.py:141
+2025-12-24 18:09:55,198 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:10:51,830 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:10:51,875 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:10:51,877 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE138,BIT0 - client.py:76
+2025-12-24 18:10:51,893 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:10:51,895 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:10:51,896 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:10:51,901 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:10:54,911 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:10:57,935 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:11:00,948 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:11:03,984 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:11:07,000 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:11:10,024 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:11:25,157 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:11:25,199 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:11:25,200 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE138,BIT0 - client.py:76
+2025-12-24 18:11:25,217 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:11:25,220 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:11:25,220 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:11:25,225 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:11:33,809 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:11:33,855 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:11:33,856 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE138,BIT0 - client.py:76
+2025-12-24 18:11:33,876 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:11:33,878 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:11:33,878 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:11:33,883 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:11:35,529 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:35,710 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:35,919 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:36,115 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:36,307 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:36,518 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:36,719 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:36,915 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:36,922 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:11:37,114 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:37,312 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:37,515 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:37,726 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:37,914 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:38,113 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:38,334 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:38,516 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:38,725 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:38,920 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:39,124 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:39,308 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:39,515 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:39,711 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:39,946 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:39,953 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:11:40,110 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:40,318 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:40,513 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:40,716 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:40,926 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:41,116 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:41,319 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:41,530 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:41,712 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:41,914 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:42,118 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:42,470 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:42,476 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.2235 秒 - client.py:89
+2025-12-24 18:11:42,832 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:42,915 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:42,961 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:11:43,118 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:43,321 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:43,511 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:43,709 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:43,933 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:44,123 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:44,315 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:44,518 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:44,717 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:44,917 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:45,108 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:45,311 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:11:45,517 - plc_client_async.log - ERROR - 读取DB10102.Byte0.7241值时出现异常错误: b'CPU : Address out of range' - client.py:721
+2025-12-24 18:15:07,267 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:15:07,309 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:15:07,310 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE34,BIT0 - client.py:76
+2025-12-24 18:15:07,329 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:15:07,331 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:15:07,331 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:15:07,335 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:15:10,384 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:15:13,393 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:15:16,424 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:15:19,442 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:18:08,068 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:18:08,115 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:18:08,116 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE34,BIT0 - client.py:76
+2025-12-24 18:18:08,136 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:18:08,137 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:18:08,139 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:18:08,143 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:23:39,292 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:23:39,335 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:23:39,336 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE34,BIT0 - client.py:76
+2025-12-24 18:23:39,354 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:23:39,356 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:23:39,357 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:23:39,361 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:23:42,410 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:23:46,802 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:23:46,870 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:23:46,871 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE34,BIT0 - client.py:76
+2025-12-24 18:23:46,890 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:23:46,894 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:23:46,894 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:23:46,900 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:23:49,924 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:23:52,939 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:23:55,953 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:23:58,968 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:01,974 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:04,987 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:08,039 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:11,078 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:14,090 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:17,102 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:20,112 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:23,125 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:26,136 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:29,155 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:32,181 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:35,208 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:38,256 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:41,274 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:44,291 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:47,320 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:50,344 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:53,386 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:56,428 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:24:59,466 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:02,488 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:05,532 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:08,543 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:11,588 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:14,617 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:17,631 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:20,658 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:23,666 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:26,675 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:29,708 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:32,744 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:35,769 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:38,807 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:41,828 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:44,875 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:47,915 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:50,925 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:53,941 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:56,958 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:25:59,974 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:02,982 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:05,994 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:09,007 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:12,026 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:15,043 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:18,063 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:21,077 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:24,093 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:27,112 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:30,128 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:33,142 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:36,153 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:39,170 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:42,183 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:45,196 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:48,205 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:51,217 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:54,236 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:26:57,249 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:00,264 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:03,280 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:06,291 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:09,304 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:12,316 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:15,328 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:18,345 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:21,361 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:24,382 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:27,424 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:30,499 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:33,513 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:36,528 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:39,547 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:42,586 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:45,624 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:48,647 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:51,670 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:54,693 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:27:57,718 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:00,771 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:03,787 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:06,805 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:09,823 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:12,838 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:15,852 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:18,867 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:21,882 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:24,892 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:27,911 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:30,934 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:33,949 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:36,964 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:39,976 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:42,993 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:46,007 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:49,022 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:52,039 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:55,051 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:28:58,068 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:01,081 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:04,095 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:07,107 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:10,122 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:13,139 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:16,150 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:19,160 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:22,170 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:25,183 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:28,195 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:31,206 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:34,222 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:37,240 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:40,257 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:43,309 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:46,327 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:49,362 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:52,398 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:55,421 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:29:58,439 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:01,459 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:04,484 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:07,506 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:10,518 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:13,550 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:16,573 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:19,613 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:22,639 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:25,665 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:28,701 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:31,715 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:34,765 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:37,774 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:40,826 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:43,845 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:46,886 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:49,907 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:52,938 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:55,956 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:30:58,973 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:01,984 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:05,036 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:08,059 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:11,085 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:14,124 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:17,167 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:20,215 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:23,248 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:26,294 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:29,314 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:32,327 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:35,355 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:38,375 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:41,407 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:44,436 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:47,462 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:50,499 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:53,527 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:56,538 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:31:59,550 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:02,571 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:05,601 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:08,629 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:11,641 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:14,674 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:17,740 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:20,760 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:23,782 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:26,830 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:29,846 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:32,884 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:35,928 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:38,954 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:41,977 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:45,010 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:48,027 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:51,046 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:54,063 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:32:57,078 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:00,090 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:03,102 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:06,115 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:09,132 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:12,140 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:15,158 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:18,171 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:21,189 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:24,204 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:27,214 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:30,231 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:33,251 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:36,265 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:39,280 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:42,294 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:45,308 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:48,320 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:51,330 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:54,346 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:33:57,362 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:00,378 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:03,446 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:06,460 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:09,469 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:12,492 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:15,511 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:18,523 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:21,537 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:24,575 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:27,599 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:30,630 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:33,646 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:36,661 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:39,674 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:42,694 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:45,704 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:48,716 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:51,730 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:54,741 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:34:57,754 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:00,773 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:03,807 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:06,819 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:09,834 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:12,854 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:15,884 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:18,899 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:21,913 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:24,925 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:27,939 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:30,956 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:33,973 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:36,985 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:40,003 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:43,020 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:46,034 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:49,051 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:52,082 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:55,108 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:35:58,135 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:01,160 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:04,179 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:07,218 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:10,263 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:13,283 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:16,310 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:19,323 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:22,338 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:25,356 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:28,368 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:31,383 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:34,399 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:37,412 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:40,429 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:43,440 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:46,459 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:49,472 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:36:52,487 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:37:03,582 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:37:03,628 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:37:03,629 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE34,BIT0 - client.py:76
+2025-12-24 18:37:03,649 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:37:03,651 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:37:03,651 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:37:03,660 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:37:06,688 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:37:09,693 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:37:12,706 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:43:53,141 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:43:53,182 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:43:53,183 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE34,BIT0 - client.py:76
+2025-12-24 18:43:53,202 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:43:53,204 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:43:53,205 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:43:53,210 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:43:56,269 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:43:59,275 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:44:21,137 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:44:21,201 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:44:21,203 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE34,BIT0 - client.py:76
+2025-12-24 18:44:21,224 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:44:21,226 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:44:21,226 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:44:21,231 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:44:24,254 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:44:27,284 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:44:28,609 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.2430 秒 - client.py:89
+2025-12-24 18:48:49,143 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:48:49,188 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:48:49,189 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE34,BIT0 - client.py:76
+2025-12-24 18:48:49,207 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:48:49,209 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:48:49,209 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:48:49,215 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:48:52,235 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:48:55,251 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:48:58,111 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.3628 秒 - client.py:89
+2025-12-24 18:48:58,322 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:48:58,698 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.3371 秒 - client.py:89
+2025-12-24 18:49:01,334 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:49:03,558 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.2023 秒 - client.py:89
+2025-12-24 18:49:04,346 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:49:07,370 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:49:10,441 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:49:11,818 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.2544 秒 - client.py:89
+2025-12-24 18:49:13,466 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:49:16,483 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:49:19,495 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:51:50,759 - plc_client_async.log - INFO - ===== 日志初始化完成 ===== - __init__.py:78
+2025-12-24 18:51:50,813 - plc_client_async.log - INFO - 加载 PLC 配置: IP=10.224.1.201, RACK=0, SLOT=1, PORT=102 - client.py:74
+2025-12-24 18:51:50,814 - plc_client_async.log - INFO - 健康检查地址为：DB10102,BYTE34,BIT0 - client.py:76
+2025-12-24 18:51:50,844 - plc_client_async.log - INFO - 成功连接到 PLC: 10.224.1.201 协商PDU大小：480 - client.py:113
+2025-12-24 18:51:50,846 - plc_client_async.log - INFO - 启动 PLC 连接监控任务 - client.py:187
+2025-12-24 18:51:50,847 - plc_client_async.log - INFO - PLC 连接健康监控线程已启动 - client.py:206
+2025-12-24 18:51:50,851 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:51:53,020 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.2231 秒 - client.py:89
+2025-12-24 18:51:53,883 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:51:56,895 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:51:59,937 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:02,948 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:05,964 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:08,973 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:12,019 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:15,099 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:18,107 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:21,120 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:24,128 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:27,138 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:30,160 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:33,172 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:36,189 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:38,629 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.2289 秒 - client.py:89
+2025-12-24 18:52:39,330 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:42,340 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:45,350 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:48,367 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:51,377 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:52,413 - plc_client_async.log - WARNING - 函数 readDB_Byte 执行时间过长: 0.2137 秒 - client.py:89
+2025-12-24 18:52:54,395 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:52:57,410 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
+2025-12-24 18:53:00,540 - plc_client_async.log - INFO - 周期性监测PLC连接状态：正常 - client.py:162
