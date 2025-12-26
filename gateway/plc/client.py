@@ -14,6 +14,8 @@ class PLCClient:
     PLC 客户端类，支持多线程安全访问（通过互斥锁实现）
     """
 
+    connect_lock = threading.RLock()  # 单PLC链接建立 操作的互斥锁，避免并发链接报错
+
     def __init__(self, config_path: str, logger: log.AppLogger, heart: bool = False) -> None:
         """
         参数
@@ -31,7 +33,7 @@ class PLCClient:
 
         # -------------------------- 关键优化1：初始化互斥锁 --------------------------
         self.client_lock = threading.RLock()  # 保护 client 操作的互斥锁
-        self.connect_timeout = 2  # 连接等待超时时间（秒）
+        self.connect_timeout = 5  # 连接等待超时时间（秒）
         self.lock_timeout = 3  # 锁获取超时时间（秒，防止死锁）
 
         # 和PLC通讯的心跳开关，一个PLC开一个心跳即可
@@ -93,8 +95,8 @@ class PLCClient:
     def connect(self):
         """创建并建立 PLC 连接（加锁避免多线程重复连接）"""
         # 尝试获取锁，超时则返回失败
-        if not self.client_lock.acquire(timeout=self.lock_timeout):
-            self.logger.error("获取连接锁超时，连接失败")
+        if not PLCClient.connect_lock.acquire(timeout=3):
+            self.logger.error("获取连接锁超时，连接失败!")
             return False
 
         try:
@@ -102,7 +104,7 @@ class PLCClient:
             if self.connected and self.client:
                 self.logger.warning("PLC 已处于连接状态，无需重复连接")
                 return True
-            self.logger.warning("...尝试重连PLC链接...")
+            self.logger.warning("...尝试重连PLC链接中...")
             # 创建客户端实例
             self.client = snap7.client.Client()
             self.client.connect(self.plc_ip, self.plc_rack, self.plc_slot, self.plc_port)
@@ -123,12 +125,12 @@ class PLCClient:
             return False
         finally:
             # 无论成功失败，都释放锁
-            self.client_lock.release()
+            PLCClient.connect_lock.release()
 
     # -------------------------- 关键优化3：断开连接加锁 --------------------------
     def disconnect(self):
         """断开 PLC 连接（加锁保证资源安全释放）"""
-        if not self.client_lock.acquire(timeout=self.lock_timeout):
+        if not PLCClient.connect_lock.acquire(timeout=3):
             self.logger.error("获取断开锁超时，释放资源失败")
             return
 
@@ -142,7 +144,7 @@ class PLCClient:
         except Exception as e:
             self.logger.error(f"断开 PLC 连接时发生异常: {e}")
         finally:
-            self.client_lock.release()
+            PLCClient.connect_lock.release()
 
     # -------------------------- 关键优化4：连接检查加锁 --------------------------
     def check_connection(self):
@@ -234,6 +236,8 @@ class PLCClient:
             while not self.stop_heart:
                 try:
                     time.sleep(self.check_interval)
+                    if not (self.connected and self.client):
+                        self.logger.warning(f"链接异常，跳过心跳执行读写！")
                     if self.writeDB_NegateBit(self.db_number, self.byte_offset, self.bit_index):
                         self.logger.info(f"写给PLC心跳信号 成功")
                     else:
@@ -270,7 +274,7 @@ class PLCClient:
         self.disconnect()
 
     # -------------------------- 关键优化5：等待连接就绪（提升可用性） --------------------------
-    def wait_for_connection(self, timeout=5):
+    def wait_for_connection(self, timeout=2):
         """等待 PLC 连接就绪（避免未连接时直接抛错）"""
         start_time = time.time()
         while True:
@@ -284,6 +288,7 @@ class PLCClient:
             # 未就绪则等待
             self.logger.warning("等待 PLC 连接就绪...")
             time.sleep(1)
+
 
     # ------------------------   boolen （加锁+bug修复） ------------------------
     def readDB_Bit(self, db_num: int, byte_offset: int, bit_offset: int):

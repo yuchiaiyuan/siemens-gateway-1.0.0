@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1afae-72c8-4d71-a79d-6cbd2f5e6a4c" name="更改" comment="v1.0.1">
+    <list default="true" id="bce1afae-72c8-4d71-a79d-6cbd2f5e6a4c" name="更改" comment="v1.0.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/GateWay0.1.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/siemens-gateway-1.0.0.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/siemens-gateway-1.0.0.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/warn-siemens-gateway-1.0.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/warn-siemens-gateway-1.0.0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/xref-siemens-gateway-1.0.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build/siemens-gateway-1.0.0/xref-siemens-gateway-1.0.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/dist/siemens-gateway-1.0.0.exe" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/dist/siemens-gateway-1.0.0.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/plc/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/plc/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/plc/tags_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/plc/tags_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/plc_api/app/routes/plc.py" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/plc_api/app/routes/plc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/siemens-gateway-1.0.0.spec" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766641785889</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v1.0.3">
+      <option name="closed" value="true" />
+      <created>1766658618650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766658618650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +243,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2025-12-24" />
     <MESSAGE value="v1.0.1 - log添加颜色区分等级" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0.1 - log添加颜色区分等级" />
+    <MESSAGE value="v1.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
