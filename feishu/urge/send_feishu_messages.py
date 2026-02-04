@@ -1,25 +1,17 @@
 import logging
 import configparser
 import os
-from logging.handlers import RotatingFileHandler
-
 import requests
 import json
 import time
 from datetime import datetime, timedelta
 
 # 配置日志记录器
-logger = logging.getLogger('message_reminder')
+logger = logging.getLogger('logs/message_reminder')
 logger.setLevel(logging.DEBUG)  # 设置日志级别
 
-# 创建滚动日志文件处理器 - 每个文件最大10MB，保留10个备份
-log_file = 'message_reminder.log'
-file_handler = RotatingFileHandler(
-    filename=log_file,
-    encoding='utf-8',
-    maxBytes=10*1024*1024,  # 10MB
-    backupCount=10  # 保留10个备份文件
-)
+# 创建文件处理器
+file_handler = logging.FileHandler('message_reminder.log', encoding='utf-8')
 file_handler.setLevel(logging.DEBUG)
 
 # 创建控制台处理器
@@ -35,17 +27,13 @@ console_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 logger.addHandler(console_handler)
 
-logger.info(f"初始化日志系统 - 文件: {log_file}, 最大大小: 10MB, 备份数: 10")
-
 # 飞书应用配置
-BOT_ID = "cli_a1d4d623dbf9500c"  # 机器人ID
 APP_ID = "cli_a1d4d623dbf9500c"  # 替换为你的应用ID
 APP_SECRET = "3Jqb6qL4arGWesF5ylUv2adbk7ghtpsI"  # 替换为你的应用密钥
-CHAT_ID = "" #群聊id
-time_s = 0  #历史消息开始时间
-time_e = 60 #历史消息结束时间
-urge_type = 0 #加急类型：0-应用加急 1-短信加急 2-电话加急
-
+CHAT_ID = ""
+time_s = 0
+time_e = 60
+BOT_ID = "cli_a1d4d623dbf9500c"  # 机器人ID
 
 
 def get_tenant_access_token():
@@ -214,72 +202,10 @@ def urge_message(token, message_id, user_ids):
         logger.exception(f"加急操作时发生异常: {str(e)}")
 
 
-def urge_message1(token, message_id, user_ids):
-    """对消息进行短信加急处理"""
-    logger.info(f"开始对消息 {message_id} 进行短信加急，用户数量: {len(user_ids)}")
-    if not message_id or not user_ids:
-        logger.warning("消息ID或用户列表为空，跳过加急操作")
-        return
-
-    # 修改为短信加急API
-    url = f"https://open.feishu.cn/open-apis/im/v1/messages/{message_id}/urgent_sms"
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json"
-    }
-
-    payload = {
-        "user_id_list": user_ids
-    }
-
-    params = {"user_id_type": "open_id"}
-
-    try:
-        response = requests.patch(url, headers=headers, params=params, json=payload)
-        if response.status_code == 200:
-            logger.info(f"消息 {message_id} 短信加急成功! 已通知用户数: {len(user_ids)}")
-        else:
-            logger.error(f"短信加急操作失败 - 状态码: {response.status_code}, 响应: {response.text}")
-    except Exception as e:
-        logger.exception(f"短信加急操作时发生异常: {str(e)}")
-
-
-def urge_message2(token, message_id, user_ids):
-    """对消息进行电话加急处理"""
-    logger.info(f"开始对消息 {message_id} 进行电话加急，用户数量: {len(user_ids)}")
-    if not message_id or not user_ids:
-        logger.warning("消息ID或用户列表为空，跳过电话加急操作")
-        return
-
-    # 使用电话加急API端点
-    url = f"https://open.feishu.cn/open-apis/im/v1/messages/{message_id}/urgent_phone"
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json"
-    }
-
-    payload = {
-        "user_id_list": user_ids
-    }
-
-    # 电话加急需要指定user_id_type
-    params = {"user_id_type": "open_id"}
-
-    try:
-        # 电话加急使用PATCH方法
-        response = requests.patch(url, headers=headers, params=params, json=payload)
-        if response.status_code == 200:
-            logger.info(f"消息 {message_id} 电话加急成功! 加急用户数: {len(user_ids)}")
-        else:
-            logger.error(f"电话加急操作失败 - 状态码: {response.status_code}, 响应: {response.text}")
-    except Exception as e:
-        logger.exception(f"电话加急操作时发生异常: {str(e)}")
-
 def main(para_time_s, para_time_e, para_chat_id):
-    global time_s, time_e,urge_type, CHAT_ID
+    global time_s, time_e, CHAT_ID
     time_s = int(para_time_s)
     time_e = int(para_time_e)
-
 
     logger.info("== 开始处理加急未读用户通知 ==")
     logger.debug(f"配置参数 - time_s: {time_s}, time_e: {time_e}, chat_id: {para_chat_id}")
@@ -305,12 +231,7 @@ def main(para_time_s, para_time_e, para_chat_id):
             for user in unread_users:
                 message_id = user.get("message_id")
                 users = user.get("users")
-                if urge_type == 1:
-                    urge_message1(token, message_id, users)
-                elif urge_type == 2:
-                    urge_message2(token, message_id, users)
-                else:
-                    urge_message(token, message_id, users)
+                urge_message(token, message_id, users)
         else:
             logger.info("没有未读用户需要通知")
 
@@ -326,7 +247,7 @@ def main(para_time_s, para_time_e, para_chat_id):
 
 if __name__ == "__main__":
     try:
-        config_path = "config\chat_config.ini"
+        config_path = "config/chat_config.ini"
         if not os.path.exists(config_path):
             logger.error(f"配置文件不存在: {config_path}")
             raise FileNotFoundError(f"配置文件不存在: {config_path}")
@@ -334,13 +255,12 @@ if __name__ == "__main__":
         config = configparser.ConfigParser()
         config.read(config_path, encoding='utf-8')
 
-        urge_type = config.getint("MONITOR", "urge_type", fallback=0)
         time_s = config.getint("MONITOR", "time_s", fallback=1)
-        time_e = config.getint("MONITOR", "time_e", fallback=3)
+        time_e = config.getint("MONITOR", "time_e", fallback=1)
         chat_id = config.get("MONITOR", "chat_id", fallback="")
         job_time = config.getint("MONITOR", "job_time", fallback=60)
 
-        logger.info(f"程序启动，配置: time_s={time_s}, time_e={time_e}, chat_id={chat_id}, job_time={job_time},urge_type = {urge_type}[1-短信加急，2-电话加急，其他-应用加急]")
+        logger.info(f"程序启动，配置: time_s={time_s}, time_e={time_e}, chat_id={chat_id}, job_time={job_time}")
 
         while True:
             logger.info("== 开始新一轮监控任务 ==")

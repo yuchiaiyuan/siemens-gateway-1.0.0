@@ -1,0 +1,11 @@
+{
+        "url": "https://www.bilibili.com/video/BV1zUzfBwEt1/?vd_source=735d632e7c6660bf4f73f5ae45a6993c",
+        "save_dir": "./screenshots",
+        "cron_expression": "0 0/1 * * *",
+        "width": 1920,
+        "height": 1080,
+        "wait_time": 5,
+        "executable_path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "chat_id":"oc_a65ff23a19a97e7846560c5e18ce9fe3",
+        "title":"【我是标题】"
+    }
