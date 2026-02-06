@@ -1,11 +1,19 @@
 {
-        "url": "https://www.bilibili.com/video/BV1zUzfBwEt1/?vd_source=735d632e7c6660bf4f73f5ae45a6993c",
+        "url": "https://ignition.prod-cncz02fa03.lixiangoa.com/data/perspective/client/CZ02_AS3_Andon",
         "save_dir": "./screenshots",
         "cron_expression": "0 0/1 * * *",
         "width": 1920,
         "height": 1080,
-        "wait_time": 5,
-        "executable_path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "wait_time": 1,
         "chat_id":"oc_a65ff23a19a97e7846560c5e18ce9fe3",
-        "title":"【我是标题】"
-    }
+        "title":"【60总装】Andon产量推送",
+		"executable_path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+		
+		"keyword":{
+			"总装产量":"https://ignition.prod-cncz02fa03.lixiangoa.com/data/perspective/client/CZ02_AS3_Andon",
+			"焊装产量":"https://ignition.prod-cncz02fa03.lixiangoa.com/data/perspective/client/CZ02_BS3_Andon",
+          "AVI": "https://factory-mes-avi-web.prod-cncz02fa03.k8s.chehejia.com/lo-svg?lineSymbol=AS3",
+          "综合看板": "https://factory-dvp-web.test-cncz02fa03.k8s.chehejia.com/cz-cncz02fa03-product"
+		}
+
+}

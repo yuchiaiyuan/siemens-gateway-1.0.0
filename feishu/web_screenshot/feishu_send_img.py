@@ -122,6 +122,7 @@ def create_card_content(image_key,title,content,note) -> Dict[str, Any]:
         "callback_id": f"defect_alert_{request_uuid}",  # 唯一回调ID，云端可去重
         "header": {
             "title": {"tag": "plain_text", "content": f"{title}"},
+            "template":"green"
         },
         "elements": [
             {
@@ -182,6 +183,135 @@ def send_message(chat_id: str, card_content: Dict[str, Any], token: str) -> Opti
         return message_id
     except requests.exceptions.RetryError:
         logger.error("请求重试次数超限，避免重复发送")
+        return None
+    except Exception as e:
+        logger.error(f"发送异常：{str(e)}", exc_info=True)
+        return None
+
+
+def send_message_reply(root_id) -> Optional[str]:
+    """
+    发送卡片到飞书群
+    :param root_id: (可选) 要回复的消息ID。如果传入此参数，消息将以回复形式发送。
+    """
+
+    url = f"https://open.feishu.cn/open-apis/im/v1/messages/{root_id}/reply"
+    headers = {
+        "Content-Type": "application/json; charset=utf-8",
+        "Authorization": f"Bearer {get_tenant_access_token()}"
+    }
+
+    # 创建卡片内容（修正：直接返回卡片对象，不包装成列表）
+    card_content = {
+        "config": {
+            "wide_screen_mode": True,
+            "enable_forward": True,
+            "update_multi": True
+        },
+        "header": {
+            "title": {"tag": "plain_text", "content": "正在查询中..."},
+        },
+        "elements": [
+            {
+                "tag": "div",
+                "text": {"tag": "lark_md", "content": f"预计10秒内完成，请等待！"},
+                "margin": "md"
+            },
+
+        ]
+    }
+
+    # 修正payload结构
+    payload = {
+        #"receive_id": chat_id,
+        "msg_type": "interactive",
+        "content": json.dumps(card_content, ensure_ascii=False)  # 修正：直接dump卡片对象
+    }
+
+    # 如果需要回复消息
+    if root_id:
+        # 飞书回复消息的正确格式：使用"reply"参数
+        payload["root_id"] = root_id
+        logger.info(f"正在回复消息 ID: {root_id}")
+
+
+    try:
+        response = requests.post(
+            url,
+            headers=headers,
+            json=payload,  # 使用json参数自动编码，而不是手动data
+            timeout=15
+        )
+
+        # 检查响应状态
+        if response.status_code != 200:
+            logger.error(f"HTTP错误: {response.status_code}")
+            logger.error(f"响应内容: {response.text}")
+            return None
+
+        result = response.json()
+        if result.get("code") != 0:
+            logger.error(f"飞书API错误：{result.get('msg')}")
+            return None
+
+        message_id = result.get("data", {}).get("message_id")
+        logger.info(f"消息发送成功，ID: {message_id}")
+        return message_id
+
+    except requests.exceptions.RequestException as e:
+        logger.error(f"请求异常：{str(e)}")
+        return None
+    except Exception as e:
+        logger.error(f"发送异常：{str(e)}", exc_info=True)
+        return None
+
+
+def update_message_reply(root_id,img_path,task_type_name) -> Optional[str]:
+    token = get_tenant_access_token()
+    image_key = upload_image(img_path, token)
+    if not image_key:
+        logger.error("图片上传失败")
+        return
+    card_content = create_card_content(image_key, task_type_name, f'** 时间: **{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}', "")
+
+    url = f"https://open.feishu.cn/open-apis/im/v1/messages/{root_id}"
+    headers = {
+        "Content-Type": "application/json; charset=utf-8",
+        "Authorization": f"Bearer {token}"
+    }
+    # 修正payload结构
+    payload = {
+        #"receive_id": chat_id,
+        "msg_type": "interactive",
+        "content": json.dumps(card_content, ensure_ascii=False)  # 修正：直接dump卡片对象
+    }
+
+
+    try:
+        response = requests.patch(
+            url,
+            headers=headers,
+            json=payload,  # 使用json参数自动编码，而不是手动data
+            timeout=15
+        )
+
+        # 检查响应状态
+        if response.status_code != 200:
+            logger.error(f"HTTP错误: {response.status_code}")
+            logger.error(f"响应内容: {response.text}")
+            return None
+
+        result = response.json()
+        if result.get("code") != 0:
+            logger.error(f"飞书API错误：{result.get('msg')}")
+            return None
+
+        message_id = result.get("data", {}).get("message_id")
+        logger.info(f"更新发送成功，ID: {message_id}")
+        return message_id
+
+    except requests.exceptions.RequestException as e:
+        logger.error(f"请求异常：{str(e)}")
         return None
     except Exception as e:
         logger.error(f"发送异常：{str(e)}", exc_info=True)
