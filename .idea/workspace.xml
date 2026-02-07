@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1afae-72c8-4d71-a79d-6cbd2f5e6a4c" name="更改" comment="飞书截图web发送">
-      <change afterPath="$PROJECT_DIR$/feishu/web_screenshot/feishu_event_subscription.py" afterDir="false" />
+    <list default="true" id="bce1afae-72c8-4d71-a79d-6cbd2f5e6a4c" name="更改" comment="飞书截图web发送-多任务">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feishu/web_screenshot/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/feishu/web_screenshot/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feishu/web_screenshot/feishu_event_subscription.py" beforeDir="false" afterPath="$PROJECT_DIR$/feishu/web_screenshot/feishu_event_subscription.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feishu/web_screenshot/feishu_send_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/feishu/web_screenshot/feishu_send_img.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feishu/web_screenshot/web_screenshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/feishu/web_screenshot/web_screenshot.py" afterDir="false" />
     </list>
@@ -241,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770191454040</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="飞书截图web发送-多任务">
+      <option name="closed" value="true" />
+      <created>1770379899477</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770379899477</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +287,8 @@
     <MESSAGE value="v1.0.3" />
     <MESSAGE value="飞书加急消息" />
     <MESSAGE value="飞书截图web发送" />
-    <option name="LAST_COMMIT_MESSAGE" value="飞书截图web发送" />
+    <MESSAGE value="飞书截图web发送-多任务" />
+    <option name="LAST_COMMIT_MESSAGE" value="飞书截图web发送-多任务" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

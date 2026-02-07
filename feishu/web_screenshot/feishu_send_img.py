@@ -189,7 +189,7 @@ def send_message(chat_id: str, card_content: Dict[str, Any], token: str) -> Opti
         return None
 
 
-def send_message_reply(root_id) -> Optional[str]:
+def send_message_reply(root_id,title: str = "正在查询中...", content:str ="预计 1 分钟内完成，请等待！") -> Optional[str]:
     """
     发送卡片到飞书群
     :param root_id: (可选) 要回复的消息ID。如果传入此参数，消息将以回复形式发送。
@@ -209,12 +209,12 @@ def send_message_reply(root_id) -> Optional[str]:
             "update_multi": True
         },
         "header": {
-            "title": {"tag": "plain_text", "content": "正在查询中..."},
+            "title": {"tag": "plain_text", "content": f"{title}"},
         },
         "elements": [
             {
                 "tag": "div",
-                "text": {"tag": "lark_md", "content": f"预计10秒内完成，请等待！"},
+                "text": {"tag": "lark_md", "content": f"{content}"},
                 "margin": "md"
             },
 

@@ -3,7 +3,7 @@ import datetime, time
 import asyncio
 import lark_oapi as lark
 import web_screenshot
-
+import feishu_send_img
 # 1. 定义一个全局变量，用于存放截图实例
 global_screenshot = None
 
@@ -18,15 +18,21 @@ def select_url(data):
     messsage_id = data.event.message.message_id
     mentions = data.event.message.mentions
 
+    has_key_word = False
+    arr_word = ""
     keyword = global_screenshot.config.get('keyword')
     for word in keyword:
-        if word in content:
+        if word.replace(" ","").lower() in content.replace(" ","").lower():
             print(f"====== 检测到关键词【{word}】 ======")
             global_screenshot.temp_job = True
             global_screenshot.messsage_id = messsage_id
             global_screenshot.task_type = word
             global_screenshot.task_url = keyword[word]
-
+            has_key_word = True
+        arr_word += "• **"+word+"**\n"
+    if not has_key_word:
+        feishu_send_img.send_message_reply(messsage_id,"请换个问题，这个我还在学习🤔🤔🤔","你可以这样问：\n"+"👇"*30 + f"\n{arr_word}")
+    has_key_word = False
 
 
 ## P2ImMessageReceiveV1 为接收消息 v2.0；CustomizedEvent 内的 message 为接收消息 v1.0。
